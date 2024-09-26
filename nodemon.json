@@ -1,0 +1,15 @@
+{
+    "watch": [
+      "main.js",
+      "server.js",
+      "preload.js",
+      "dist/**/*",     
+      "welcome.html",
+      "signup.html",
+      "signin.html",
+      "styles.css"
+    ],
+    "ext": "js,json,html", 
+    "exec": "electron ."   
+  }
+  

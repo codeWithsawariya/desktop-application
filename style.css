@@ -1,0 +1,17 @@
+body {
+    
+ background-color: #a42f98;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.btn-link {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 600px;
+}

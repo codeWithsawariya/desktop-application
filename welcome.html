@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function goToSignup() {
+            window.location.href = 'signup.html'; // Redirect to signup page
+        }
+
+        function goToSignin() {
+            window.location.href = 'signin.html'; // Ensure this matches your file name
+        }
+    </script>
+</head>
+<body class="bg-light">
+    <div class="container text-center">
+        <h1 class="mt-5">Welcome to Our Application!</h1>
+        <p class="lead">Please choose an option:</p>
+        <button class="btn btn-primary" onclick="goToSignup()">Sign Up</button>
+        <button class="btn btn-secondary" onclick="goToSignin()">Sign In</button>
+    </div>
+</body>
+</html>
